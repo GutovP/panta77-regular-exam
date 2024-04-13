@@ -1,4 +1,4 @@
-name: Build, Test and Deploy
+name: Build Test and Deploy
 
 on:
   push:
@@ -23,4 +23,4 @@ jobs:
       - name: Run unit tests
         run: npm run test:unit
       - name: Display Softuni username
-        run: echo "Panta77"
+        run: echo "panta77"
