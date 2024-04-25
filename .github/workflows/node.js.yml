@@ -56,4 +56,4 @@ jobs:
           ftp_host: ${{ secrets.FTP_SERVER }}
           ftp_username: ${{ secrets.FTP_USERNAME }}
           ftp_password: ${{ secrets.FTP_PASSWORD }}
-          dist_target_dir: '/repositories/portfolio'
+          dist_target_dir: '/home/gutovnet/repositories/portfolio'
