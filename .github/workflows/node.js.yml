@@ -48,7 +48,7 @@ jobs:
 
   deploy:
     runs-on: ubuntu-latest
-    needs: build-angular-app
+    needs: build-ui-tests
     steps:
       - name: Sync folders and files to the server
         uses: kevinpainchaud/simple-ftp-deploy-action@v1.2.1
