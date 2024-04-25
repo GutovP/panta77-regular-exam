@@ -55,4 +55,4 @@ jobs:
         with:
           server: balkan.ns1.bg
           username: gutovnet
-          password: ${{ secrets.FTP_PASSWORD }}
+          password: ${{ secrets.ftp_password }}
