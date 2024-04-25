@@ -53,6 +53,6 @@ jobs:
       - name: Sync folders and files to the server
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
+          server: balkan.ns1.bg
+          username: gutovnet
           password: ${{ secrets.FTP_PASSWORD }}
